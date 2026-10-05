@@ -1,0 +1,14 @@
+{
+  "name": "khan-homemade-store",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy:temporary": "wrangler deploy --temporary",
+    "check": "node --check src/worker.js && node --check public/app.js"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2"
+  }
+}

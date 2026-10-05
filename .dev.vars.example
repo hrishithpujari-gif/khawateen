@@ -1,0 +1,5 @@
+# Copy to .dev.vars for local development. Keep .dev.vars private and uncommitted.
+DATABASE_URL=
+OWNER_PANEL_PASSWORD=
+SESSION_SECRET=KhanweetStoreIshuKa
+RESEND_API_KEY=

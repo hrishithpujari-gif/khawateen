@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#241f21">
+  <meta name="description" content="Khan Homemade Store — small-batch sewing, textiles, homemade food, and home decor, chosen with care.">
+  <title>Khan Homemade Store — made with heart, chosen for home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="/styles.css" rel="stylesheet">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="announcement"><span class="announcement-dot"></span> Small-batch, homegrown goods <span class="announcement-divider">·</span> From Mumbai with care</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Khan Homemade Store — home">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M20 4 35 13v15L20 36 5 28V13L20 4Z"/><path d="M13 25V15m0 5h14m0-5v10M10 11c3 2 6 2 10 0s7-2 10 0"/></svg></span>
+      <span class="brand-copy"><strong>Khan Homemade</strong><small>Store · Made with care at home</small></span>
+    </a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+      <a href="#home" data-nav="home">Home</a>
+      <a href="#saman" data-nav="saman">Shop</a>
+      <a href="#about" data-nav="about">About</a>
+      <a href="#contact" data-nav="contact">Contact</a>
+      <a class="nav-owner" href="#owner-login" data-nav="owner-login"><span class="owner-icon">↗</span> Store owner sign-in</a>
+    </nav>
+  </header>
+
+  <main id="app" tabindex="-1" aria-live="polite"></main>
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <a class="brand brand-light" href="#home" aria-label="Khan Homemade Store — home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M20 4 35 13v15L20 36 5 28V13L20 4Z"/><path d="M13 25V15m0 5h14m0-5v10M10 11c3 2 6 2 10 0s7-2 10 0"/></svg></span><span class="brand-copy"><strong>Khan Homemade</strong><small>Store · Made with care at home</small></span></a>
+        <p>Handmade in small batches.<br>Shared from our home to yours.</p>
+      </div>
+      <div class="footer-links"><strong>Shop</strong><a href="#saman">All products</a><a href="#saman?category=kapde">Clothing &amp; textiles</a><a href="#saman?category=decor">Home decor</a><a href="#saman?category=khana">Homemade food</a></div>
+      <div class="footer-contact"><strong>Help</strong><a href="#contact">Contact us</a><a href="https://wa.me/919324793621" target="_blank" rel="noopener">Message us on WhatsApp ↗</a><a href="mailto:irshadkhan8879920195@gmail.com">Email the store</a></div>
+      <div class="footer-company"><strong>Our story</strong><a href="#about">About Khan Homemade</a><a href="#owner-login">Store owner sign-in</a></div>
+      <div class="footer-newsletter"><strong>Notes from home</strong><p>Hear about new handmade finds and occasional shop updates.</p><a class="footer-newsletter-link" href="mailto:irshadkhan8879920195@gmail.com?subject=Khan%20Homemade%20Store%20updates">Ask to receive updates ↗</a></div>
+    </div>
+    <div class="footer-bottom"><span>© <span id="year"></span> Khan Homemade Store</span><span>Made at home · Chosen with care</span></div>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+name = "khan-homemade-store"
+main = "src/worker.js"
+compatibility_date = "2026-06-24"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+
+[[r2_buckets]]
+binding = "PRODUCT_IMAGES"
+bucket_name = "khan-homemade-product-images"
+
+[vars]
+RESEND_FROM_EMAIL = "Khan Homemade Store <orders@your-verified-domain.example>"
